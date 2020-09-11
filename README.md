@@ -21,4 +21,4 @@ List of my CVE published
 
 * Bypass the Wordpress 5.3.1 Upload restrictions by using polymorphic files. [awaiting]
 
-* ArGo Soft Mail Server 1.8.8.9 is affected by Cross Site Request Forgery (CSRF) for perform remote arbitrary code execution. The component is the Administration dashboard. When using admin/user credentials, if the admin/user admin opens a website with the malicious page that will run the CSRF. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-23824
+* **CVE-2020-23824** ArGo Soft Mail Server 1.8.8.9 is affected by Cross Site Request Forgery (CSRF) for perform remote arbitrary code execution. The component is the Administration dashboard. When using admin/user credentials, if the admin/user admin opens a website with the malicious page that will run the CSRF. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-23824
