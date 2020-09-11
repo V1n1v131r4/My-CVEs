@@ -20,3 +20,5 @@ List of my CVE published
 * In Internet Explorer 11, Content Security Policy (CSP) is not applied correctly to all parts of multipart content sent with the multipart/x-mixed-replace MIME type. This could result in script running where CSP should have blocked it, allowing for cross-site scripting (XSS) and other attacks when the product renders the content as HTML. Remediating this would also need to consider the polyglot case, e.g., a file that is a valid GIF image and also valid JavaScript. [awaiting]
 
 * Bypass the Wordpress 5.3.1 Upload restrictions by using polymorphic files. [awaiting]
+
+* ArGo Soft Mail Server 1.8.8.9 is affected by Cross Site Request Forgery (CSRF) for perform remote arbitrary code execution. The component is the Administration dashboard. When using admin/user credentials, if the admin/user admin opens a website with the malicious page that will run the CSRF. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-23824
