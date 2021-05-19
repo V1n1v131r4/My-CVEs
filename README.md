@@ -23,4 +23,4 @@ List of my CVE published
 
 * **CVE-2020-23824** ArGo Soft Mail Server 1.8.8.9 is affected by Cross Site Request Forgery (CSRF) for perform remote arbitrary code execution. The component is the Administration dashboard. When using admin/user credentials, if the admin/user admin opens a website with the malicious page that will run the CSRF. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-23824
 
-* **2021-3558** On Moodle 3.9.2 (core) When creating a course, you can upload HTML files as a resource. When uploading an HTML file containing an <input> tag that has an XSS polyglot payload as "value" it is possible to perform a Cross-Site Scripting. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3558
+* **2021-3558** On Moodle 3.9.2 to 3.10.4 (core) When creating a course, you can upload HTML files as a resource. When uploading an HTML file containing an <input> tag that has an XSS polyglot payload as "value" it is possible to perform a Cross-Site Scripting. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3558
