@@ -17,6 +17,8 @@ List of my CVE published
 
 * **CVE-2020-8658** The BestWebSoft Htaccess plugin through 1.8.1 for WordPress allows wp-admin/admin.php?page=htaccess.php&action=htaccess_editor CSRF. The flag htccss_nonce_name passes the nonce to WordPress but the plugin does not validate it correctly, resulting in a wrong implementation of anti-CSRF protection. In this way, an attacker is able to direct the victim to a malicious web page that modifies the .htaccess file, and takes control of the website. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8658
 
+* **CVE-2021-45268** Backdrop CMS suffers from an Cross-site Request Forgery Vulnerability allowing Remote Attackers to gain Remote Code Execution (RCE) on the Hosting Webserver via uploading a maliciously add-on with crafted PHP file or create. This issue can be exploited creating an Admin user too. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45268
+
 * In Internet Explorer 11, Content Security Policy (CSP) is not applied correctly to all parts of multipart content sent with the multipart/x-mixed-replace MIME type. This could result in script running where CSP should have blocked it, allowing for cross-site scripting (XSS) and other attacks when the product renders the content as HTML. Remediating this would also need to consider the polyglot case, e.g., a file that is a valid GIF image and also valid JavaScript. [awaiting]
 
 * Bypass the Wordpress 5.3.1 Upload restrictions by using polymorphic files. [awaiting]
